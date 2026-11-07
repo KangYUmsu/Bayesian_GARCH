@@ -146,5 +146,6 @@ report of the agent-led research phase are preserved in [`agent_research/`](agen
 ## Context and licence
 
 The project was completed for the Erdős Institute *Quantitative Methods in Finance* course (Fall 2026); the reviewer
-package is in [`course/`](course/). No licence has been chosen yet, so all rights are reserved by the author until one
-is added.
+package is in [`course/`](course/). 
+
+This project is licensed under the MIT License.
