@@ -1,0 +1,35 @@
+# --- restricted market data and derived daily artifacts (never commit; see README, "Data and saved artifacts")
+data/*_adjusted.csv
+artifacts/forecasts/
+artifacts/milestone10_market/
+artifacts/results/full_run/forecasts/
+
+# --- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+!agent_research/results/run_grid.log
+
+# --- OS / editor
+.DS_Store
+.idea/
+.vscode/

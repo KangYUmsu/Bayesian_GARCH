@@ -1,0 +1,18 @@
+{
+ "artifacts/forecasts/SPY_500_moderate_s102026_2017_draws.npz": "8a923dc5101d253e5c27a8012fe7897cbae2e1f5d1dbd2c0c62e019c534a7bec",
+ "artifacts/forecasts/SPY_1000_moderate_s102026_2017_draws.npz": "f9086d06605ae7f134a4fd9df77cba5a7ce61a0ba70354d1f2237359b42214bc",
+ "artifacts/forecasts/QQQ_500_moderate_s102026_2017_draws.npz": "f5eabd4a6d2abbe19822c60776804b8b85f3ea35abcf74668bc7ef2c38affd07",
+ "artifacts/forecasts/QQQ_1000_moderate_s102026_2017_draws.npz": "b6f10f5bcd57017208c1c4d9c6e01943ebe00d9f9e53d9aac684427c74330ba1",
+ "artifacts/forecasts/TLT_500_moderate_s102026_2017_draws.npz": "df9e8fcc51677d586343595144ebec52b409941f8e8048bfd16efd8b8632dfc8",
+ "artifacts/forecasts/TLT_1000_moderate_s102026_2017_draws.npz": "e5edda292279e487cac59fe5bbb374d5de8140af9f9f220e84157453302b3417",
+ "artifacts/forecasts/GLD_500_moderate_s102026_2017_draws.npz": "6f7f0a6aae9d6a37fd0fff247887f6047c359476763623c177c7b8380d6cd14c",
+ "artifacts/forecasts/GLD_1000_moderate_s102026_2017_draws.npz": "4bfa0e0d8d14e379d9866c7e4c5ffd9196676d3774718d5b0b7f7cd8f0e63c16",
+ "artifacts/forecasts/SPY_500_moderate_s2026_2023_draws.npz": "363c8a17af9574a8ca77d11bb1958b0a4c8888780fee16e20e179cfea4866ebe",
+ "artifacts/forecasts/SPY_1000_moderate_s2026_2023_draws.npz": "ccf790344486a4e81804cbf00666965beaef007d9d333888460751e874566698",
+ "artifacts/forecasts/QQQ_500_moderate_s2026_2023_draws.npz": "b91e4119cff67b6218310a3346350d6da11e316c0b6e722f154787282e12e2b5",
+ "artifacts/forecasts/QQQ_1000_moderate_s2026_2023_draws.npz": "5f42ea02df838a6d04d3b95e48620de61f5c8c21bb311bc3684ccb5b48f20b1c",
+ "artifacts/forecasts/TLT_500_moderate_s2026_2023_draws.npz": "dc2ce66184e8fefbd17d9a292ed794f308d061433094c295e8736253e92a0c1b",
+ "artifacts/forecasts/TLT_1000_moderate_s2026_2023_draws.npz": "c9cb1810521e12429266aa5372bc08d7f4faec321cb045e7464b7123b2d3981c",
+ "artifacts/forecasts/GLD_500_moderate_s2026_2023_draws.npz": "49d9ed428273f91c1c0b1dc1bd95068dad9a60ce6911212c3cfc03d81810c5f9",
+ "artifacts/forecasts/GLD_1000_moderate_s2026_2023_draws.npz": "70e280e0b75f91bc863c2198ddabc4375792c81eb57b79923a39d52b6f42051e"
+}

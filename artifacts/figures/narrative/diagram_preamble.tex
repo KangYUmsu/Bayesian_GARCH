@@ -1,0 +1,20 @@
+% Shared look for the narrative diagrams (included by portfolio_flowchart.tex and rolling_design.tex)
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\renewcommand{\familydefault}{\sfdefault}
+\usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds,decorations.pathreplacing}
+\definecolor{ink}{HTML}{1F1F1E}
+\definecolor{muted}{HTML}{6B6A63}
+\definecolor{fc}{HTML}{2A78D6}   % statistical forecasting
+\definecolor{al}{HTML}{EB6834}   % portfolio allocation
+\definecolor{ex}{HTML}{1BAF7A}   % execution and accounting
+\definecolor{ev}{HTML}{7A5BB5}   % performance evaluation
+\definecolor{rule}{HTML}{D9D7CF}
+\tikzset{
+  box/.style={draw=#1, fill=#1!9, line width=0.8pt, rounded corners=3pt, align=flush left,
+              inner sep=3.2pt, text=ink, font=\small},
+  step/.style={box=#1, text width=3.75cm, minimum height=1.45cm},
+  arr/.style={-{Stealth[length=2.4mm]}, line width=0.9pt, draw=muted},
+  num/.style={circle, fill=#1, text=white, font=\scriptsize\bfseries, inner sep=1.2pt, minimum size=4mm},
+}

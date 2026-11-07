@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bgarch"
+version = "1.1.0"
+description = "Bayesian GARCH: from volatility forecasting to portfolio allocation (research code, tests and reproduction pipeline)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Kang Yu" }]
+# Versions used to produce and verify the results are pinned in requirements.txt / environment.yml.
+# Install editable (pip install -e .): bgarch re-exports the validated core package `src`, which stays in place.
+dependencies = [
+    "numpy>=1.26,<2",
+    "scipy>=1.12",
+    "pandas>=2.2",
+    "numba>=0.59",
+    "arviz>=0.21",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+notebook = ["jupyter", "nbformat>=5.9", "nbclient>=0.8", "nbconvert>=7.10", "ipykernel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["bgarch", "bgarch_experiments"]

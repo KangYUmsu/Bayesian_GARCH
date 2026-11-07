@@ -1,0 +1,20 @@
+{
+  "mode": "full",
+  "output": "<scratch directory, not kept>",
+  "jobs": 16,
+  "refits": 320,
+  "failed_convergence": 4,
+  "fit_seconds": 43.5,
+  "total_seconds": 63.6,
+  "figures": [
+    "fig1_logscore_gains.png",
+    "fig2_sharpe_differences.png",
+    "fig3_weight_paths_spy2020.png",
+    "fig4_kurtosis.png"
+  ],
+  "table_columns_identical": 282,
+  "table_columns_compared": 282,
+  "max_rel_diff_classical_variance": 0.0,
+  "max_rel_diff_bayesian_variance": 0.0,
+  "note": "Full-mode rerun (python -m bgarch.reproduce full) after moving the pipeline to bgarch_experiments, 2026-11-06. Compared with agent_research/results."
+}

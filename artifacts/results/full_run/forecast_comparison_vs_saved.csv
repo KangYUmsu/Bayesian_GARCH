@@ -1,0 +1,17 @@
+segment,asset,window,dates_identical,maxrel_variance_mle,maxrel_variance_ewma,maxrel_variance_t,maxrel_logscore_mle,maxrel_variance_map,maxrel_variance_bayes_meanplug,maxrel_variance_bayes_integrated,maxrel_variance_bayes_q90,failed_fits_new,failed_fits_saved
+ext,SPY,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,SPY,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,QQQ,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,QQQ,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,TLT,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,1
+ext,TLT,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,GLD,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+ext,GLD,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,1
+test,SPY,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,1
+test,SPY,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+test,QQQ,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+test,QQQ,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,1
+test,TLT,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+test,TLT,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+test,GLD,500,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+test,GLD,1000,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0

@@ -1,0 +1,16 @@
+# Exact versions used to build and verify the results (Python 3.12.2, macOS / Apple M3).
+numpy==1.26.4
+scipy==1.12.0
+pandas==2.2.2
+numba==0.59.1
+arviz==0.21.0
+statsmodels==0.14.2
+matplotlib==3.8.4
+pytest==7.4.4
+jupyter
+nbformat==5.9.2
+nbclient==0.8.0
+nbconvert==7.10.0
+ipykernel
+# optional: only needed to (re)download market data
+# yfinance

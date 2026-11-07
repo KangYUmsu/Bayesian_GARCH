@@ -1,0 +1,19 @@
+{
+  "mode": "full",
+  "output": "../results/full_run",
+  "jobs": 16,
+  "refits": 320,
+  "failed_convergence": 4,
+  "fit_seconds": 47.2,
+  "total_seconds": 67.4,
+  "figures": [
+    "../results/full_run/figures/fig1_logscore_gains.png",
+    "../results/full_run/figures/fig2_sharpe_differences.png",
+    "../results/full_run/figures/fig3_weight_paths_spy2020.png",
+    "../results/full_run/figures/fig4_kurtosis.png"
+  ],
+  "table_columns_identical": 282,
+  "table_columns_compared": 282,
+  "max_rel_diff_classical_variance": 0.0,
+  "max_rel_diff_bayesian_variance": 0.0
+}

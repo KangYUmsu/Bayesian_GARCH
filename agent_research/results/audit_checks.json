@@ -1,0 +1,114 @@
+{
+  "likelihood_max_abs_error_vs_reference": 9.094947017729282e-13,
+  "mle_boundary": {
+    "n_refits_at_bound_2017_2026": 25,
+    "max_loglik_gain": 1.1503559197085451,
+    "median_abs_next_var_change": 0.049025766358501865,
+    "max_abs_next_var_change": 0.09703223594258936
+  },
+  "mcmc_vs_importance_sampling": [
+    {
+      "asset": "SPY",
+      "window": 500,
+      "date": "2023-01-03",
+      "is_ess": 39688.36424579603,
+      "post_mean_p_mcmc": 0.9831156855124098,
+      "post_mean_p_is": 0.9831144973248804,
+      "next_var_mean_rel_diff": -0.001052023292168136,
+      "next_var_q90_rel_diff": -0.003030802764910079
+    },
+    {
+      "asset": "TLT",
+      "window": 500,
+      "date": "2023-01-03",
+      "is_ess": 36535.45835189486,
+      "post_mean_p_mcmc": 0.983079617370833,
+      "post_mean_p_is": 0.9828756436768873,
+      "next_var_mean_rel_diff": -0.0007138729059518178,
+      "next_var_q90_rel_diff": -0.0003489482781360298
+    },
+    {
+      "asset": "GLD",
+      "window": 500,
+      "date": "2023-01-03",
+      "is_ess": 37776.100796604565,
+      "post_mean_p_mcmc": 0.610317029935092,
+      "post_mean_p_is": 0.610123293595524,
+      "next_var_mean_rel_diff": 0.0012626460016609276,
+      "next_var_q90_rel_diff": -0.0012289557415253727
+    },
+    {
+      "asset": "QQQ",
+      "window": 1000,
+      "date": "2020-03-02",
+      "is_ess": 40713.454759851295,
+      "post_mean_p_mcmc": 0.9369236254740264,
+      "post_mean_p_is": 0.9366074265082822,
+      "next_var_mean_rel_diff": -0.0009531389581567407,
+      "next_var_q90_rel_diff": -0.0009823886432573925
+    }
+  ],
+  "canary_variance_filter": {
+    "shocked_index": 550,
+    "first_forecast_index_changed": 551,
+    "ok": true
+  },
+  "canary_execution_lag": {
+    "changed_forecast_row": 60,
+    "changed_portfolio_period_rows": [
+      60
+    ],
+    "portfolio_period_date": "2015-03-27",
+    "forecast_row_date": "2015-03-26",
+    "note": "forecast row d (info < d) sets the weight for the close(d)->close(d+1) return"
+  },
+  "cash_lag_example": {
+    "period": "2023-03-17 -> 2023-03-20 (3 calendar days)",
+    "accrual": 0.00038166666666666666,
+    "rate_used": 4.58,
+    "implied": 0.00038166666666666666
+  },
+  "m10_equity_replay_max_abs_error": 3.1159970437233397e-16,
+  "data_sanity": {
+    "SPY": {
+      "n": 3481,
+      "start": "2013-01-03",
+      "end": "2026-11-04",
+      "max_abs_log_return": 0.11588651598753993,
+      "date_of_max": "2020-03-16",
+      "max_gap_days": 4,
+      "excess_kurtosis": 15.1437475070883,
+      "same_calendar_as_SPY": true
+    },
+    "QQQ": {
+      "n": 3481,
+      "start": "2013-01-03",
+      "end": "2026-11-04",
+      "max_abs_log_return": 0.1275923492973912,
+      "date_of_max": "2020-03-16",
+      "max_gap_days": 4,
+      "excess_kurtosis": 7.945884667466146,
+      "same_calendar_as_SPY": true
+    },
+    "TLT": {
+      "n": 3481,
+      "start": "2013-01-03",
+      "end": "2026-11-04",
+      "max_abs_log_return": 0.07250270354150781,
+      "date_of_max": "2020-03-20",
+      "max_gap_days": 4,
+      "excess_kurtosis": 4.367918035129058,
+      "same_calendar_as_SPY": true
+    },
+    "GLD": {
+      "n": 3481,
+      "start": "2013-01-03",
+      "end": "2026-11-04",
+      "max_abs_log_return": 0.10841233744964714,
+      "date_of_max": "2026-01-30",
+      "max_gap_days": 4,
+      "excess_kurtosis": 7.638940581266526,
+      "same_calendar_as_SPY": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrrrr}\toprule
+ & \multicolumn{4}{c}{2017--22} & \multicolumn{4}{c}{2023--26}\\\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+ & \multicolumn{2}{c}{Sharpe} & \multicolumn{2}{c}{Max DD (\%)} & \multicolumn{2}{c}{Sharpe} & \multicolumn{2}{c}{Max DD (\%)}\\
+Strategy & 500 & 1000 & 500 & 1000 & 500 & 1000 & 500 & 1000\\\midrule
+Buy and hold & 0.695 & 0.695 & -25.2 & -25.2 & 1.086 & 1.086 & -10.3 & -10.3 \\
+Static weight (pre-period calibrated) & 0.677 & 0.677 & -18.3 & -18.3 & 1.019 & 1.019 & -5.8 & -5.8 \\
+EWMA & 0.884 & 0.884 & -13.2 & -13.2 & 0.926 & 0.926 & -7.6 & -7.6 \\
+Student-$t$ GARCH (MLE) & 0.903 & 0.864 & -13.9 & -14.3 & 0.929 & 0.892 & -6.9 & -6.9 \\
+Gaussian GARCH, MLE & 0.864 & 0.849 & -14.1 & -14.5 & 0.917 & 0.887 & -6.8 & -6.8 \\
+Bayes, integrated variance & 0.870 & 0.851 & -14.2 & -14.6 & 0.924 & 0.895 & -6.6 & -6.8 \\
+Bayes, upper-90\% variance & 0.875 & 0.849 & -13.3 & -14.0 & 0.925 & 0.887 & -6.1 & -6.5 \\
+MLE $\times$ real-time haircut (control) & 0.866 & 0.844 & -13.3 & -14.0 & 0.918 & 0.895 & -6.5 & -6.5 \\
+Laplace (classical) upper-90\% & 0.856 & 0.849 & -13.3 & -14.0 & 0.926 & 0.884 & -5.8 & -6.5 \\
+\bottomrule\end{tabular}

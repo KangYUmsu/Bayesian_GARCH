@@ -1,0 +1,15 @@
+{
+  "mode": "quick",
+  "artifacts_verified": 48,
+  "tables_dir": "artifacts/results/quick/tables",
+  "figures": [
+    "artifacts/figures/fig1_logscore_gains.png",
+    "artifacts/figures/fig2_sharpe_differences.png",
+    "artifacts/figures/fig3_weight_paths_spy2020.png",
+    "artifacts/figures/fig4_kurtosis.png"
+  ],
+  "columns_compared": 282,
+  "columns_identical": 282,
+  "max_abs_diff": 0.0,
+  "seconds": 19.6
+}
