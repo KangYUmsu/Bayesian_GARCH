@@ -22,9 +22,6 @@ The notebooks are stored executed, so all outputs and figures are visible withou
 needs the market data and saved artifacts, which are not redistributed; see the repository
 [README](../README.md#data-and-saved-artifacts).
 
-**Sources.** Editable LaTeX sources are in [`reports/source/`](reports/source/) and
-[`presentations/source/`](presentations/source/).
-
 **Relation to the rest of the repository.** The reports and notebooks here are copies of the authoritative files in
 [`../reports/`](../reports/) and [`../notebooks/`](../notebooks/), kept identical by `python scripts/sync_course.py`
 (run from the repository root; `--check` verifies without copying). The code, tests and reproduction pipeline are
