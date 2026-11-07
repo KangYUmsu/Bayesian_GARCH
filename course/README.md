@@ -12,11 +12,11 @@ Choose the depth you want; the materials can be read in any order.
 
 | Material | Purpose |
 |---|---|
-| [Executive summary](reports/executive_summary.pdf) (8 pages) | Quick overview of the research questions, methodology and findings |
-| [Full research report](reports/research_report.pdf) (23 pages) | Complete technical explanation and numerical evidence, with appendices |
-| [Quick walkthrough](notebooks/quick_walkthrough.ipynb) | Concise executable introduction: live MLE, MCMC and Student-*t* fits, H1–H3 recomputed |
-| [Comprehensive walkthrough](notebooks/walkthrough.ipynb) | Detailed derivations, algorithms, experiments, diagnostics and 130 numerical checks |
-| [Presentation](presentations/slides.pdf) (13 slides) | Visual overview of the project; [speaker notes](presentations/source/speaker_notes.md) include a five-minute cut for the course video |
+| [Executive summary](executive_summary.pdf) (8 pages) | Quick overview of the research questions, methodology and findings |
+| [Full research report](research_report.pdf) (23 pages) | Complete technical explanation and numerical evidence, with appendices |
+| [Quick walkthrough](quick_walkthrough.ipynb) | Concise executable introduction: live MLE, MCMC and Student-*t* fits, H1–H3 recomputed |
+| [Comprehensive walkthrough](walkthrough.ipynb) | Detailed derivations, algorithms, experiments, diagnostics and 130 numerical checks |
+| [Presentation](slides.pdf) (13 slides) | Visual overview of the project; [speaker notes](presentations/source/speaker_notes.md) include a five-minute cut for the course video |
 
 The notebooks are stored executed, so all outputs and figures are visible without running them. Re-executing them
 needs the market data and saved artifacts, which are not redistributed; see the repository
