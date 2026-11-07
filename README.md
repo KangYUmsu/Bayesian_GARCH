@@ -135,13 +135,11 @@ precision, because MCMC starting points depend on platform linear-algebra librar
 `course/presentations/source/`. After changing a report or notebook, run `python scripts/sync_course.py` to update and
 verify the course copies.
 
-## AI assistance
+### AI Assistance and Research Transparency
 
-The independent audit, the 2017–2022 replication, the analysis code, the course package, the reports and the
-notebooks were produced with substantial assistance from an AI system (Claude, by Anthropic, through Claude Code)
-working in the author's project under the author's direction. Every quantitative statement is checked programmatically
-against saved artifacts by the tests, notebook checks and number checkers. The research plan, experiment log and
-report of the agent-led research phase are preserved in [`agent_research/`](agent_research/).
+This project was developed with substantial assistance from AI tools, including Claude Code (Anthropic), Codex (OpenAI), and ChatGPT (OpenAI), under the author's direction. AI assistance contributed to the implementation, independent audit, numerical replication, analysis, documentation, and preparation of research materials.
+
+Quantitative results were validated programmatically against saved experimental artifacts using automated tests, notebook checks, and consistency checkers. The research plan, experiment log, and documentation of the AI-assisted research process are preserved in [`agent_research/`](agent_research/).
 
 ## Context and licence
 
